@@ -1,0 +1,29 @@
+.noUi-base {
+  background-color: rgba(98, 195, 198, 0.3) !important;
+
+}
+
+.noUi-target{
+  height: 5px !important;
+  border: none !important;
+}
+
+.noUi-connect {
+  background-color: #28e3e9 !important;
+}
+
+
+
+.noUi-handle {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  background-image: url('data:image/svg+xml,<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M0 10C0 4.47715 4.47715 0 10 0V6C10 11.5228 5.52285 16 0 16V10Z" fill="%2328E3E9" /></svg>') !important;
+  background-repeat: no-repeat !important;
+  background-size: 20px 20px !important;
+}
+
+.noUi-handle:before,
+.noUi-handle:after {
+  display: none !important;
+}

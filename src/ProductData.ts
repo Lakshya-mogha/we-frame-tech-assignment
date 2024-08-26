@@ -1,0 +1,136 @@
+interface productDataIn {
+  id: number;
+  status: string;
+  img: string;
+  companyName: string;
+  thcPersent: string;
+  cbdPersent: string;
+  logo: string;
+  name: string;
+  Kultivar: string;
+  Genetik: string;
+  price: string;
+  stock?: string;
+}
+
+export const productData: productDataIn[] = [
+  {
+    id: 1,
+    status: "nicht lieferbar",
+    img: "/image.png",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 18/1 PT Mango",
+    Kultivar: " Mango",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 2,
+    img: "/image.png",
+    status: "nicht lieferbar",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 18/1 PT Mango",
+    Kultivar: " Mango",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 3,
+    img: "/image.png",
+    status: "nicht lieferbar",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 18/1 PT Mango",
+    Kultivar: " Mango",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 4,
+    img: "/image.png",
+    status: "sofort lieferbar",
+    stock: "Neu",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 22/1 PT Ku.Pink Kush DAB Canify",
+    Kultivar: "Pink Kush",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 5,
+    img: "/image.png",
+    status: "sofort lieferbar",
+    stock: "Neu",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 22/1 PT Ku.Pink Kush DAB Canify",
+    Kultivar: "Pink Kush",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 6,
+    img: "/image.png",
+    status: "nicht lieferbar",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 18/1 PT Mango",
+    Kultivar: " Mango",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 7,
+    img: "/image.png",
+    status: "nicht lieferbar",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 18/1 PT Mango",
+    Kultivar: " Mango",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 8,
+    img: "/image.png",
+    status: "nicht lieferbar",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 18/1 PT Mango",
+    Kultivar: " Mango",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+  {
+    id: 9,
+    img: "/image.png",
+    status: "nicht lieferbar",
+    companyName: "Canify",
+    thcPersent: "THC 18%",
+    cbdPersent: "CBD <1%",
+    logo: `/logo.png`,
+    name: "Cannabis Flos 18/1 PT Mango",
+    Kultivar: " Mango",
+    Genetik: "Hybrid",
+    price: "11,66",
+  },
+];
